@@ -4,9 +4,8 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-- # 定时执行，此处使用UTC时间
-- #schedule:
-- cron: '0 0 8 * * *'
+  schedule:
+  - cron: '0 0 8 * * *'
 env:
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
