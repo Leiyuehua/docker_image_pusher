@@ -1,3 +1,4 @@
 xiaoyaliu/alist:hostmode
 amilys/embyserver
 laoyutang/clash-and-dashboard
+linuxserver/firefox
